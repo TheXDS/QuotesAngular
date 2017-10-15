@@ -1,0 +1,41 @@
+﻿.info, .warning, .error, .quoteList li {
+    padding: 10px;
+    margin: 5px;
+    border-right-width: 5px;
+    border-right-style: solid;
+}
+
+.info {
+    background-color: steelblue;
+    color: white;
+}
+
+.error {
+    background-color: darkred;
+    color: white;
+}
+
+.warning {
+    background-color: goldenrod;
+    border-right-color: #111;
+    color: black;
+}
+
+.quoteList {
+    padding: 0px;
+    color: white;
+}
+
+    .quoteList li {
+        list-style: none;
+        background-color: #333;
+        border-right-color: red;
+    }
+
+        .quoteList li small {
+            display: block;
+            text-align: right;
+            color: #9b9b9b;
+            line-height: 1.5em;
+            font-size: 8px;
+        }

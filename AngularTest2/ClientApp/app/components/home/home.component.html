@@ -1,0 +1,12 @@
+<p class="info" *ngIf="!quotes">
+    <span class="glyphicon glyphicon-info-sign"></span>
+    <em>Cargando...</em>
+</p>
+<div *ngIf="quotes">
+    <ul class="quoteList" *ngFor="let quote of quotes">
+        <li>
+            {{ quote.text }}
+            <small>{{ quote.author }}, {{ quote.timeStamp }}</small>
+        </li>
+    </ul>
+</div>
